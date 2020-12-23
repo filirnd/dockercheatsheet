@@ -1,6 +1,9 @@
 # Docker cheat sheet
 Some useful docker tips and tricks
 
+___
+
+
 # Table of Contents
 - ## [Tips](#tips)
   - [Docker container access to host services](#tip-1)
@@ -11,9 +14,16 @@ Some useful docker tips and tricks
 
 
 
+___
+
+
+
+
 # Tips <a name="tips"></a>
 ## Docker container access to host services <a name="tip-1"></a>
 From linux host you can access to host services (localhost:port service on host) within a docker container by using special ip `172.17.0.1:<samehostserviceport>`
+
+  ___
 
 ## Install docker on Fedora version >= 32. Cgroup error <a name="tip-2"></a>
 Guide from https://poweruser.blog/how-to-install-docker-on-fedora-32-f2606c6934f1
@@ -41,6 +51,8 @@ Guide from https://poweruser.blog/how-to-install-docker-on-fedora-32-f2606c6934f
   ```
   
   
+___
+
 
 
 # Useful Images <a name="images"></a>
