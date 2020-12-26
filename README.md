@@ -45,6 +45,9 @@ Guide from https://poweruser.blog/how-to-install-docker-on-fedora-32-f2606c6934f
   - Follow this instruction to install docker:
   https://docs.docker.com/engine/install/fedora/
   
+  - Follow this instruction for post-install:
+  https://docs.docker.com/engine/install/linux-postinstall/
+  
   - Install docker-compose
   ```
   sudo dnf -y install docker-compose
